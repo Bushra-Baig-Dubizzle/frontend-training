@@ -17,31 +17,31 @@ When opening the  app's login URL, the browser first finds the server using DNS 
 
 ## HTTP Request and Assets
 
-Sends an HTTP request and downloads HTML, CSS, JavaScript, and other assets: 94 requests, 6.8 MB transferred.
+Sends an HTTP request and downloads HTML, CSS, JavaScript, and other assets.
 
 ![Network waterfall with request and response headers](Screenshots/01-network-headers.png)
 
 ## Render-Blocking CSS
 
-Stylesheets linked from the HTML block rendering; the heaviest is `index-CIN-VJS1.css` (329 kB, 623 ms).
+Stylesheets linked from the HTML block rendering
 
 ![Network tab filtered by .css](Screenshots/02-network-css-filter.png)
 
 ## Performance Trace
 
-Records loading, scripting, and rendering: scripting 807 ms, painting 44 ms, rendering 33 ms, DOM of 3,180 elements.
+Records loading, scripting, and rendering: scriptings, painting, rendering.
 
 ![Performance trace with Optimize DOM size insight](Screenshots/03-performance-trace.png)
 
 ## Browser Storage
 
-Loads browser storage data: local storage keeps `persist:root` (app state) and recent settings.
+Loads browser storage data where wqe can store the user Data related stuff and asll
 
 ![Application tab showing local storage](Screenshots/04-application-local-storage.png)
 
 ## Cookies
 
-Loads cookies: `JWT_Token`, `Refresh_Token`, `CF_Authorization` and analytics cookies.
+Loads cookies n all.
 
 ![Application tab showing cookies](Screenshots/05-application-cookies.png)
 
